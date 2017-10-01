@@ -1,0 +1,38 @@
+page-per-other {
+
+.header-md::after{
+background-image:none;
+}
+
+.toolbar-background{
+background-color: white;
+color: rgba(66, 66, 66, 0.74);
+}
+
+.titlename{
+text-align: center;
+
+margin-top: -20px;
+}
+
+.icon{
+color: $color-sky;
+}    
+img{
+width: 70px;
+height: 70px;
+margin: auto;
+display: block;
+}
+p{
+text-align: center;
+color: $color-font;
+font-weight: 500;
+font-size: 1.5rem;
+}
+.row{
+margin-top: 30px;
+}
+}
+
+

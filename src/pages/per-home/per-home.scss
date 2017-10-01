@@ -1,0 +1,39 @@
+page-per-home {
+    .header-md::after{
+        background-image:none;
+    }
+    .back-button.show-back-button {
+        display: none;
+    }
+    .toolbar-background{
+        background-color: white;
+        color: rgba(66, 66, 66, 0.74);
+    }
+    .toolbar-title{
+        color: $color-font;
+    }
+    .titlename{
+        text-align: center;
+        padding-right: 60px;
+        margin-top: -20px;
+    }
+        
+    .icon{
+        color: $color-sky;
+    }    
+img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: block;
+}
+p{
+    text-align: center;
+    color: $color-font;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.row{
+    margin-top: 30px;
+}
+}

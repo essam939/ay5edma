@@ -1,0 +1,27 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title  class="titlename">Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<h2 class="welcome">Welcome to<br><span class="anyservices">any Services</span></h2>
+<form style="margin-top: 40px;padding-left: 25px;
+padding-right: 25px;">
+  <ion-item>
+    <ion-label  stacked class="label">Mobile Number</ion-label>
+    <ion-input type="tel"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label  stacked class="label">Password</ion-label>
+    <ion-input type="password" ></ion-input>
+  </ion-item>
+  <button ion-button round clear class="signin" (click)="goperhome()">Sign In</button>
+  <a class="forget" (click)="goforgetpass()">Forget My Password ?</a>
+</form>
+</ion-content>

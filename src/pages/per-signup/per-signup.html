@@ -1,0 +1,33 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title class="signup">Sign up<br><span class="personal">(Personal Account)</span></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form class="inputform">
+  <ion-item>
+    <ion-label  stacked class="label">Name</ion-label>
+    <ion-input type="tel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label  stacked class="label">Mobile Number</ion-label>
+      <ion-input type="tel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label  stacked class="label">Password</ion-label>
+      <ion-input type="password" ></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label  stacked class="label">Email</ion-label>
+        <ion-input type="email" ></ion-input>
+    </ion-item>
+  </form>
+  <ion-row>
+  <button ion-button round clear class="location" (click)="golocations()">Locations</button><br>
+</ion-row>
+<ion-row>
+    <button ion-button round clear class="signin">Sign In</button>
+</ion-row>
+</ion-content>
