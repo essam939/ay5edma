@@ -1,3 +1,4 @@
+import { ServSignupPage } from './../serv-signup/serv-signup';
 import { PerSignupPage } from './../per-signup/per-signup';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
@@ -24,5 +25,8 @@ export class SignupPage {
   }
 gisignup(){
   this.navCtrl.push(PerSignupPage);
+}
+servsignup(){
+  this.navCtrl.push(ServSignupPage);
 }
 }

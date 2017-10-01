@@ -1,3 +1,9 @@
+import { ServChatPage } from './../pages/serv-chat/serv-chat';
+import { ServRequestsPage } from './../pages/serv-requests/serv-requests';
+import { ServAddservicePage } from './../pages/serv-addservice/serv-addservice';
+import { ServHomePage } from './../pages/serv-home/serv-home';
+import { ServSignipindusPage } from './../pages/serv-signipindus/serv-signipindus';
+import { ServSignupPage } from './../pages/serv-signup/serv-signup';
 import { PerTechratePage } from './../pages/per-techrate/per-techrate';
 import { PerTechreqPage } from './../pages/per-techreq/per-techreq';
 import { PerHoteldetailsPage } from './../pages/per-hoteldetails/per-hoteldetails';
@@ -54,7 +60,13 @@ import { HomePage } from '../pages/home/home';
     PerRestdetailsPage,
     PerRealdetailsPage,
     PerTechreqPage,
-    PerTechratePage
+    PerTechratePage,
+    ServSignupPage,
+    ServSignipindusPage,
+    ServHomePage,
+    ServAddservicePage,
+    ServRequestsPage,
+    ServChatPage
 
   ],
   imports: [
@@ -86,7 +98,14 @@ import { HomePage } from '../pages/home/home';
     PerRestdetailsPage,
     PerRealdetailsPage,
     PerTechreqPage,
-    PerTechratePage
+    PerTechratePage,
+    ServSignupPage,
+    ServSignipindusPage,
+    ServHomePage,
+    ServAddservicePage,
+    ServRequestsPage,
+    ServChatPage
+
   ],
   providers: [
     StatusBar,
