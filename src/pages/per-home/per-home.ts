@@ -5,7 +5,7 @@ import { PerRealestatePage } from './../per-realestate/per-realestate';
 import { PerTechcatPage } from './../per-techcat/per-techcat';
 import { PerSellPage } from './../per-sell/per-sell';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 
 /**
  * Generated class for the PerHomePage page.
@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+
 @Component({
   selector: 'page-per-home',
   templateUrl: 'per-home.html',

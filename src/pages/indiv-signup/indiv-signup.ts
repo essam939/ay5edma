@@ -7,7 +7,7 @@ import { IndivSkillsPage } from './../indiv-skills/indiv-skills';
 import { PerLocationPage } from './../per-location/per-location';
 import { IndivLangPage } from './../indiv-lang/indiv-lang';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {  NavController, NavParams } from 'ionic-angular';
 
 /**
  * Generated class for the IndivSignupPage page.
@@ -16,7 +16,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+
 @Component({
   selector: 'page-indiv-signup',
   templateUrl: 'indiv-signup.html',

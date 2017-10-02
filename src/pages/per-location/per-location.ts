@@ -1,6 +1,6 @@
 import { PerMapPage } from './../per-map/per-map';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {  NavController, NavParams } from 'ionic-angular';
 
 /**
  * Generated class for the PerLocationPage page.
@@ -9,7 +9,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+
 @Component({
   selector: 'page-per-location',
   templateUrl: 'per-location.html',

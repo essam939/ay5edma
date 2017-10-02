@@ -1,6 +1,6 @@
 import { PerHoteldetailsPage } from './../per-hoteldetails/per-hoteldetails';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {  NavController, NavParams } from 'ionic-angular';
 
 /**
  * Generated class for the PerHotelsPage page.
@@ -9,7 +9,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+
 @Component({
   selector: 'page-per-hotels',
   templateUrl: 'per-hotels.html',

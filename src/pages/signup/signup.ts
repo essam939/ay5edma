@@ -2,11 +2,11 @@ import { IndivSignupPage } from './../indiv-signup/indiv-signup';
 import { ServSignupPage } from './../serv-signup/serv-signup';
 import { PerSignupPage } from './../per-signup/per-signup';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {  NavController, NavParams } from 'ionic-angular';
 
 
 
-@IonicPage()
+
 @Component({
   selector: 'page-signup',
   templateUrl: 'signup.html',

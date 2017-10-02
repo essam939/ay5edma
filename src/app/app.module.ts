@@ -1,40 +1,40 @@
-import { IndivScedulePageModule } from './../pages/indiv-scedule/indiv-scedule.module';
-import { IndivViewcertificPageModule } from './../pages/indiv-viewcertific/indiv-viewcertific.module';
-import { IndivImgidPageModule } from './../pages/indiv-imgid/indiv-imgid.module';
-import { IndivImgprofilePageModule } from './../pages/indiv-imgprofile/indiv-imgprofile.module';
-import { IndivPhonePageModule } from './../pages/indiv-phone/indiv-phone.module';
-import { IndivSkillsPageModule } from './../pages/indiv-skills/indiv-skills.module';
-import { IndivCertificatePageModule } from './../pages/indiv-certificate/indiv-certificate.module';
-import { IndivLangPageModule } from './../pages/indiv-lang/indiv-lang.module';
-import { IndivSignupPageModule } from './../pages/indiv-signup/indiv-signup.module';
-import { ServChatPageModule } from './../pages/serv-chat/serv-chat.module';
-import { ServRequestsPageModule } from './../pages/serv-requests/serv-requests.module';
-import { ServAddservicePageModule } from './../pages/serv-addservice/serv-addservice.module';
-import { ServHomePageModule } from './../pages/serv-home/serv-home.module';
-import { ServSignipindusPageModule } from './../pages/serv-signipindus/serv-signipindus.module';
-import { ServSignupPageModule } from './../pages/serv-signup/serv-signup.module';
-import { PerTechratePageModule } from './../pages/per-techrate/per-techrate.module';
-import { PerTechreqPageModule } from './../pages/per-techreq/per-techreq.module';
-import { PerRealdetailsPageModule } from './../pages/per-realdetails/per-realdetails.module';
-import { PerRestdetailsPageModule } from './../pages/per-restdetails/per-restdetails.module';
-import { ForgetpasswordPageModule } from './../pages/forgetpassword/forgetpassword.module';
-import { SignupPageModule } from './../pages/signup/signup.module';
-import { LoginPageModule } from './../pages/login/login.module';
-import { WelcomePageModule } from './../pages/welcome/welcome.module';
-import { PerTechcatPageModule } from './../pages/per-techcat/per-techcat.module';
-import { PerHomePageModule } from './../pages/per-home/per-home.module';
-import { PerSignupPageModule } from './../pages/per-signup/per-signup.module';
-import { PerLocationPageModule } from './../pages/per-location/per-location.module';
-import { PerMapPageModule } from './../pages/per-map/per-map.module';
-import { PerSellPageModule } from './../pages/per-sell/per-sell.module';
-import { PerRealestatePageModule } from './../pages/per-realestate/per-realestate.module';
-import { PerRestPageModule } from './../pages/per-rest/per-rest.module';
-import { PerHotelsPageModule } from './../pages/per-hotels/per-hotels.module';
-import { PerOtherPageModule } from './../pages/per-other/per-other.module';
-import { PerItemdetailsPageModule } from './../pages/per-itemdetails/per-itemdetails.module';
-import { PerHoteldetailsPageModule } from './../pages/per-hoteldetails/per-hoteldetails.module';
-import { PerTechniciansPageModule } from './../pages/per-technicians/per-technicians.module';
-import { PerTechlocationPageModule } from './../pages/per-techlocation/per-techlocation.module';
+import { IndivScedulePage } from './../pages/indiv-scedule/indiv-scedule';
+import { IndivViewcertificPage } from './../pages/indiv-viewcertific/indiv-viewcertific';
+import { IndivImgidPage } from './../pages/indiv-imgid/indiv-imgid';
+import { IndivImgprofilePage } from './../pages/indiv-imgprofile/indiv-imgprofile';
+import { IndivPhonePage } from './../pages/indiv-phone/indiv-phone';
+import { IndivSkillsPage } from './../pages/indiv-skills/indiv-skills';
+import { IndivCertificatePage } from './../pages/indiv-certificate/indiv-certificate';
+import { IndivLangPage } from './../pages/indiv-lang/indiv-lang';
+import { IndivSignupPage } from './../pages/indiv-signup/indiv-signup';
+import { ServChatPage } from './../pages/serv-chat/serv-chat';
+import { ServRequestsPage } from './../pages/serv-requests/serv-requests';
+import { ServAddservicePage } from './../pages/serv-addservice/serv-addservice';
+import { ServHomePage } from './../pages/serv-home/serv-home';
+import { ServSignipindusPage } from './../pages/serv-signipindus/serv-signipindus';
+import { ServSignupPage } from './../pages/serv-signup/serv-signup';
+import { PerTechratePage } from './../pages/per-techrate/per-techrate';
+import { PerTechreqPage } from './../pages/per-techreq/per-techreq';
+import { PerRealdetailsPage } from './../pages/per-realdetails/per-realdetails';
+import { PerRestdetailsPage } from './../pages/per-restdetails/per-restdetails';
+import { ForgetpasswordPage } from './../pages/forgetpassword/forgetpassword';
+import { SignupPage } from './../pages/signup/signup';
+import { LoginPage } from './../pages/login/login';
+import { WelcomePage } from './../pages/welcome/welcome';
+import { PerTechcatPage } from './../pages/per-techcat/per-techcat';
+import { PerHomePage } from './../pages/per-home/per-home';
+import { PerSignupPage } from './../pages/per-signup/per-signup';
+import { PerLocationPage } from './../pages/per-location/per-location';
+import { PerMapPage } from './../pages/per-map/per-map';
+import { PerSellPage } from './../pages/per-sell/per-sell';
+import { PerRealestatePage } from './../pages/per-realestate/per-realestate';
+import { PerRestPage } from './../pages/per-rest/per-rest';
+import { PerHotelsPage } from './../pages/per-hotels/per-hotels';
+import { PerOtherPage } from './../pages/per-other/per-other';
+import { PerItemdetailsPage } from './../pages/per-itemdetails/per-itemdetails';
+import { PerHoteldetailsPage } from './../pages/per-hoteldetails/per-hoteldetails';
+import { PerTechniciansPage } from './../pages/per-technicians/per-technicians';
+import { PerTechlocationPage } from './../pages/per-techlocation/per-techlocation';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -48,55 +48,94 @@ import { HomePage } from '../pages/home/home';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    PerTechlocationPage,
+    PerTechniciansPage,
+    PerHoteldetailsPage,
+    PerItemdetailsPage,
+    PerOtherPage,
+    PerHotelsPage,
+    PerRestPage,
+    PerRealestatePage,
+    PerSellPage,
+    PerMapPage,
+    PerLocationPage,
+    PerSignupPage,
+    PerHomePage,
+    PerTechcatPage,
+    WelcomePage,
+    LoginPage,
+    SignupPage,
+    ForgetpasswordPage,
+    PerRestdetailsPage,
+    PerRealdetailsPage,
+    PerTechreqPage,
+    PerTechratePage,
+    ServSignupPage,
+    ServSignipindusPage,
+    ServHomePage,
+    ServAddservicePage,
+    ServRequestsPage,
+    ServChatPage,
+    IndivSignupPage,
+    IndivLangPage,
+    IndivCertificatePage,
+    IndivSkillsPage,
+    IndivPhonePage,
+    IndivImgprofilePage,
+    IndivImgidPage,
+    IndivViewcertificPage,
+    IndivScedulePage
  
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
-    PerTechlocationPageModule,
-    PerTechniciansPageModule,
-    PerHoteldetailsPageModule,
-    PerItemdetailsPageModule,
-    PerOtherPageModule,
-    PerHotelsPageModule,
-    PerRestPageModule,
-    PerRealestatePageModule,
-    PerSellPageModule,
-    PerMapPageModule,
-    PerLocationPageModule,
-    PerSignupPageModule,
-    PerHomePageModule,
-    PerTechcatPageModule,
-    WelcomePageModule,
-    LoginPageModule,
-    SignupPageModule,
-    ForgetpasswordPageModule,
-    PerRestdetailsPageModule,
-    PerRealdetailsPageModule,
-    PerTechreqPageModule,
-    PerTechratePageModule,
-    ServSignupPageModule,
-    ServSignipindusPageModule,
-    ServHomePageModule,
-    ServAddservicePageModule,
-    ServRequestsPageModule,
-    ServChatPageModule,
-    IndivSignupPageModule,
-    IndivLangPageModule,
-    IndivCertificatePageModule,
-    IndivSkillsPageModule,
-    IndivPhonePageModule,
-    IndivImgprofilePageModule,
-    IndivImgidPageModule,
-    IndivViewcertificPageModule,
-    IndivScedulePageModule
+    IonicModule.forRoot(MyApp)
+ 
 
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    PerTechlocationPage,
+    PerTechniciansPage,
+    PerHoteldetailsPage,
+    PerItemdetailsPage,
+    PerOtherPage,
+    PerHotelsPage,
+    PerRestPage,
+    PerRealestatePage,
+    PerSellPage,
+    PerMapPage,
+    PerLocationPage,
+    PerSignupPage,
+    PerHomePage,
+    PerTechcatPage,
+    WelcomePage,
+    LoginPage,
+    SignupPage,
+    ForgetpasswordPage,
+    PerRestdetailsPage,
+    PerRealdetailsPage,
+    PerTechreqPage,
+    PerTechratePage,
+    ServSignupPage,
+    ServSignipindusPage,
+    ServHomePage,
+    ServAddservicePage,
+    ServRequestsPage,
+    ServChatPage,
+    IndivSignupPage,
+    IndivLangPage,
+    IndivCertificatePage,
+    IndivSkillsPage,
+    IndivPhonePage,
+    IndivImgprofilePage,
+    IndivImgidPage,
+    IndivViewcertificPage,
+    IndivScedulePage
+ 
    
 
   ],
