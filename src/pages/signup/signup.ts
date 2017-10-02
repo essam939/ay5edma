@@ -1,14 +1,10 @@
+import { IndivSignupPage } from './../indiv-signup/indiv-signup';
 import { ServSignupPage } from './../serv-signup/serv-signup';
 import { PerSignupPage } from './../per-signup/per-signup';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the SignupPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 
 @IonicPage()
 @Component({
@@ -28,5 +24,8 @@ gisignup(){
 }
 servsignup(){
   this.navCtrl.push(ServSignupPage);
+}
+indivSignup(){
+  this.navCtrl.push(IndivSignupPage);
 }
 }

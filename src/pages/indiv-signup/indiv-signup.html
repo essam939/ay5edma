@@ -1,0 +1,62 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title class="signup">Sign up<br><span class="personal">(Individual Technician)</span></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form class="inputform">
+  <ion-item>
+    <ion-label  stacked class="label">Name</ion-label>
+    <ion-input type="tel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label  stacked class="label">Mobile Number</ion-label>
+      <ion-input type="tel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label  stacked class="label">Password</ion-label>
+      <ion-input type="password" ></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label  stacked class="label">Email</ion-label>
+        <ion-input type="email" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label  stacked class="label">Company Type</ion-label>
+      <ion-input type="text" ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label  stacked class="label">Nationality</ion-label>
+    <ion-input type="text" ></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label  stacked class="label">Available Houres</ion-label>
+  <ion-input type="text" ></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label  stacked class="label">Years of Experience</ion-label>
+  <ion-input type="number" ></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label  stacked class="label">Birth Date</ion-label>
+  <ion-input type="date" ></ion-input>
+</ion-item>
+  </form>
+  <ion-row>
+    <div style="margin-top: 30px;margin: auto;
+    display: block;">
+      <p  class="locationbtn" (click)="goimgprofile()">Add profile Picture</p>
+      <p  class="locationbtn"(click)="imgid()">identity card scan</p>
+      <p  class="locationbtn" (click)="lang()">Languages</p>
+      <p class="locationbtn"(click)="signlocation()">Locations</p>
+      <p class="locationbtn"(click)="certificate()">Certificates</p>
+      <p class="locationbtn" (click)="goskills()">Skills</p>
+      <p class="locationbtn"(click)="phonepage()">Phone Number</p>
+    </div>
+</ion-row>
+<ion-row>
+    <button ion-button round clear class="signin" (click)=goHome()>Sign In</button>
+</ion-row>
+</ion-content>

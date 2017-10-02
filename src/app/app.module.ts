@@ -1,3 +1,12 @@
+import { IndivScedulePageModule } from './../pages/indiv-scedule/indiv-scedule.module';
+import { IndivViewcertificPageModule } from './../pages/indiv-viewcertific/indiv-viewcertific.module';
+import { IndivImgidPageModule } from './../pages/indiv-imgid/indiv-imgid.module';
+import { IndivImgprofilePageModule } from './../pages/indiv-imgprofile/indiv-imgprofile.module';
+import { IndivPhonePageModule } from './../pages/indiv-phone/indiv-phone.module';
+import { IndivSkillsPageModule } from './../pages/indiv-skills/indiv-skills.module';
+import { IndivCertificatePageModule } from './../pages/indiv-certificate/indiv-certificate.module';
+import { IndivLangPageModule } from './../pages/indiv-lang/indiv-lang.module';
+import { IndivSignupPageModule } from './../pages/indiv-signup/indiv-signup.module';
 import { ServChatPageModule } from './../pages/serv-chat/serv-chat.module';
 import { ServRequestsPageModule } from './../pages/serv-requests/serv-requests.module';
 import { ServAddservicePageModule } from './../pages/serv-addservice/serv-addservice.module';
@@ -72,7 +81,16 @@ import { HomePage } from '../pages/home/home';
     ServHomePageModule,
     ServAddservicePageModule,
     ServRequestsPageModule,
-    ServChatPageModule
+    ServChatPageModule,
+    IndivSignupPageModule,
+    IndivLangPageModule,
+    IndivCertificatePageModule,
+    IndivSkillsPageModule,
+    IndivPhonePageModule,
+    IndivImgprofilePageModule,
+    IndivImgidPageModule,
+    IndivViewcertificPageModule,
+    IndivScedulePageModule
 
   ],
   bootstrap: [IonicApp],

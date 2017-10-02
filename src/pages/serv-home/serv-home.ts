@@ -1,3 +1,4 @@
+import { IndivScedulePage } from './../indiv-scedule/indiv-scedule';
 import { ServRequestsPage } from './../serv-requests/serv-requests';
 import { ServAddservicePage } from './../serv-addservice/serv-addservice';
 import { Component } from '@angular/core';
@@ -28,5 +29,8 @@ export class ServHomePage {
   }
   addservice(){
     this.navCtrl.push(ServAddservicePage)
+  }
+  Schedule(){
+    this.navCtrl.push(IndivScedulePage)
   }
 }
