@@ -2,5 +2,7 @@
   "name": "ay5edma",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
