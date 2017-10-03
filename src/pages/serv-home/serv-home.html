@@ -1,9 +1,9 @@
 
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+<ion-navbar>
+<ion-title>Home</ion-title>
+</ion-navbar>
 
 </ion-header>
 
@@ -26,16 +26,32 @@ Service Requests
 Add Service
 </ion-col>
 </ion-row>
-<!-- this item for individual Technician-->
+<!-- this item for individual Technician & Technicicans office-->
 <ion-row (click)="Schedule()">
-    <ion-col col-2>
-    <img src="assets/imgs/iPhone 67 – 2.png"> 
-    </ion-col>
-    <ion-col col-10>
-    Schedule
-    </ion-col>
-    </ion-row>
-    <!-- ---------------------------------------- -->
+<ion-col col-2>
+<img src="assets/imgs/iPhone 67 – 2.png"> 
+</ion-col>
+<ion-col col-10>
+Schedule
+</ion-col>
+</ion-row>
+<!-- ---------------------------------------- -->
+<ion-row>
+<ion-col col-2 (click)="tasks()">
+<img src="assets/imgs/iPhone 67 – 1.png"> 
+</ion-col>
+<ion-col col-10>
+Assign Tasks
+</ion-col>
+</ion-row>
+<ion-row (click)="addtec()">
+<ion-col col-2>
+<img src="assets/imgs/Artboard – 1.png"> 
+</ion-col>
+<ion-col col-10>
+Add Technician
+</ion-col>
+</ion-row>   
 <ion-row>
 <ion-col col-2>
 <img src="assets/imgs/iPhone 67 – 3.png"> 

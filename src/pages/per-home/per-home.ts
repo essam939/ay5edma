@@ -1,3 +1,6 @@
+import { ProfilePage } from './../profile/profile';
+import { ServRequestsPage } from './../serv-requests/serv-requests';
+import { SettingsPage } from './../settings/settings';
 import { PerRestPage } from './../per-rest/per-rest';
 import { PerHotelsPage } from './../per-hotels/per-hotels';
 import { PerOtherPage } from './../per-other/per-other';
@@ -44,5 +47,14 @@ export class PerHomePage {
   }
   goother(){
     this.navCtrl.push(PerOtherPage);
+  }
+  settings(){
+    this.navCtrl.push(SettingsPage);
+  }
+  editprofile(){
+    this.navCtrl.push(ProfilePage);
+  }
+  goinbox(){
+    this.navCtrl.push(ServRequestsPage);
   }
 }

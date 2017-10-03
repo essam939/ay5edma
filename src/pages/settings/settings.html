@@ -1,0 +1,30 @@
+<ion-header>
+  
+<ion-navbar>
+<ion-title >
+  <ion-row>
+    <ion-col col-2>
+        <ion-icon class="icon" name="ios-person-outline"></ion-icon>
+    </ion-col>
+    <ion-col col-2>
+        <ion-icon class="icon" name="mail"></ion-icon>
+    </ion-col>
+    <ion-col col-8 class="titlename">
+      Settings
+    </ion-col>
+  </ion-row>     
+</ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-list>
+  <ion-item>
+  <ion-label > Language</ion-label>
+  <ion-toggle  checked="false"></ion-toggle></ion-item>
+  <ion-item (click)="about()">About</ion-item>
+  <ion-item (click)="terms()">Terms And Conditions</ion-item>
+  <ion-item (click)="signout()">Sign Out</ion-item>
+  <hr>
+</ion-list>
+</ion-content>

@@ -1,3 +1,8 @@
+import { ProfilePage } from './../pages/profile/profile';
+import { TermsPage } from './../pages/terms/terms';
+import { AboutPage } from './../pages/about/about';
+import { SettingsPage } from './../pages/settings/settings';
+
 import { IndivScedulePage } from './../pages/indiv-scedule/indiv-scedule';
 import { IndivViewcertificPage } from './../pages/indiv-viewcertific/indiv-viewcertific';
 import { IndivImgidPage } from './../pages/indiv-imgid/indiv-imgid';
@@ -85,7 +90,11 @@ import { HomePage } from '../pages/home/home';
     IndivImgprofilePage,
     IndivImgidPage,
     IndivViewcertificPage,
-    IndivScedulePage
+    IndivScedulePage,
+    ProfilePage,
+    SettingsPage,
+    AboutPage,
+    TermsPage
  
   ],
   imports: [
@@ -134,7 +143,11 @@ import { HomePage } from '../pages/home/home';
     IndivImgprofilePage,
     IndivImgidPage,
     IndivViewcertificPage,
-    IndivScedulePage
+    IndivScedulePage,
+    ProfilePage,
+    SettingsPage,
+    AboutPage,
+    TermsPage
  
    
 

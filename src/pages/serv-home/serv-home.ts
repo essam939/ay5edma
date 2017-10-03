@@ -33,4 +33,10 @@ export class ServHomePage {
   Schedule(){
     this.navCtrl.push(IndivScedulePage)
   }
+  tasks(){
+    this.navCtrl.push(ServRequestsPage);
+  }
+  addtec(){
+    
+  }
 }

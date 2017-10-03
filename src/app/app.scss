@@ -18,8 +18,9 @@ $color-sky:rgb(38, 191, 228);
 $color-font:rgba(0, 0, 0, 0.57);
 $color-font2:rgb(160, 154, 154);
 $color-orange:#ff9100;
-$color-background: #F3F3F3;
-$color-background2:#f8f8f8;
+// $color-background: #F3F3F3;
+$color-background:rgba(241, 241, 241, 0.78);
+$color-background2:rgba(241, 241, 241, 0.78);
 .toolbar-background{
     color: white;
 }
@@ -27,7 +28,7 @@ $color-background2:#f8f8f8;
     font-size: 2.2rem;
     color: $color-orange;
     font-weight: 600;
-    padding-right: 130px;
+    padding-right: 120px;
 }
 [dir ='rtl'] .pricemobile{
     font-size: 2.2rem;
@@ -95,3 +96,21 @@ $color-background2:#f8f8f8;
     padding-left: 62px ;
     padding-right: 0;
 }
+.dateitem{
+    margin: 0;
+    position: absolute;
+    left: 67%;
+    top: 8px;
+    color: $color-orange;
+    font-size: 1.5rem;
+    font-weight: 600;
+    }
+    [dir ='rtl'] .dateitem{
+    margin: 0;
+    position: absolute;
+    left: 7%;
+    top: 8px;
+    color: $color-orange;
+    font-size: 1.5rem;
+    font-weight: 600;
+    }
