@@ -1,3 +1,4 @@
+import { SettingsPage } from './../settings/settings';
 import { IndivScedulePage } from './../indiv-scedule/indiv-scedule';
 import { ServRequestsPage } from './../serv-requests/serv-requests';
 import { ServAddservicePage } from './../serv-addservice/serv-addservice';
@@ -38,5 +39,8 @@ export class ServHomePage {
   }
   addtec(){
     
+  }
+  settings(){
+    this.navCtrl.push(SettingsPage);
   }
 }

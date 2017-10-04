@@ -16,12 +16,13 @@ page-profile {
     font-size: 1.7rem;
     color: $color-font;
 }
-.toolbar-title{
+.toolbar-title {
     color: rgba(66, 66, 66, 0.67);
     font-size: 1.7rem;
     text-align: center;
-    padding-right: 0px !important;
-}
+    padding-left: 0px !important;
+    padding-right: 0 !important;
+}    
 .icon{
     color: $color-sky;
     font-size: 3rem;

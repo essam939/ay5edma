@@ -2,26 +2,26 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title  class="titlename">Login</ion-title>
+    <ion-title  class="titlename">{{'Sign In'|translate}}</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-<h2 class="welcome">Welcome to<br><span class="anyservices">any Services</span></h2>
+<h2 class="welcome">{{'Welcome to'|translate}}<br><span class="anyservices">{{'any Services'|translate}}</span></h2>
 <form style="margin-top: 40px;padding-left: 25px;
 padding-right: 25px;">
   <ion-item>
-    <ion-label  stacked class="label">Mobile Number</ion-label>
+    <ion-label  stacked class="label">{{'Mobile Number'|translate}}</ion-label>
     <ion-input type="tel"></ion-input>
   </ion-item>
 
   <ion-item>
-    <ion-label  stacked class="label">Password</ion-label>
+    <ion-label  stacked class="label">{{'Password'|translate}}</ion-label>
     <ion-input type="password" ></ion-input>
   </ion-item>
-  <button ion-button round clear class="signin" (click)="goperhome()">Sign In</button>
-  <a class="forget" (click)="goforgetpass()">Forget My Password ?</a>
+  <button ion-button round clear class="signin" (click)="goperhome()">{{'Sign In'|translate}}</button>
+  <a class="forget" (click)="goforgetpass()">{{'Forget My Password ?'|translate}}</a>
 </form>
 </ion-content>

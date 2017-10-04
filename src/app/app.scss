@@ -83,6 +83,7 @@ $color-background2:rgba(241, 241, 241, 0.78);
     z-index: 1;
     color:white;
 }
+
 .toolbar-title{
     color: rgba(66, 66, 66, 0.67);
     font-size: 1.7rem;
@@ -96,6 +97,8 @@ $color-background2:rgba(241, 241, 241, 0.78);
     padding-left: 62px ;
     padding-right: 0;
 }
+
+   
 .dateitem{
     margin: 0;
     position: absolute;
@@ -114,3 +117,4 @@ $color-background2:rgba(241, 241, 241, 0.78);
     font-size: 1.5rem;
     font-weight: 600;
     }
+  

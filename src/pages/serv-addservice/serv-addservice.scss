@@ -1,6 +1,6 @@
 page-serv-addservice {
 
-.content,.toolbar-background{
+.content,.toolbar-background,.item{
     background-color: $color-background2; 
 }
 .toolbar-title{
@@ -57,6 +57,9 @@ width: 40%;
 height: 45px;
 color: $color-sky;
 }
-
-
+.servtitle{
+font-size: 1.6rem;
+font-weight: 500;
+color: rgba(0, 0, 0, 0.8);
+}
 }

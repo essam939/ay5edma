@@ -49,7 +49,17 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import {MainService} from "../providers/main-service";
+import {TranslateService} from "@ngx-translate/core";
 
+
+
+import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+import {Http, HttpModule} from "@angular/http";
+import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+
+export function createTranslateLoader(http: Http) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');}
 @NgModule({
   declarations: [
     MyApp,
@@ -99,9 +109,15 @@ import { HomePage } from '../pages/home/home';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
- 
-
+    HttpModule,
+    IonicModule.forRoot(MyApp),
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [Http]
+      }
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -154,6 +170,7 @@ import { HomePage } from '../pages/home/home';
   ],
   providers: [
     StatusBar,
+    MainService,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]

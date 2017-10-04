@@ -2,7 +2,14 @@ page-serv-home {
 .content{
     background-color: $color-background2;
 }
-.row{
+.toolbar-title{
+    color: rgba(66, 66, 66, 0.67);
+    font-size: 1.7rem;
+    text-align: center;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.rowitem{
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.21);
@@ -24,5 +31,15 @@ page-serv-home {
     width: 40px;
     margin-right: 10px;
     margin-left: 10px;
+}
+.settingicon{
+    font-size: 3rem;
+    color: $color-sky;
+}
+.toolbar-title {
+    color: rgba(66, 66, 66, 0.67);
+    font-size: 1.7rem;
+    text-align: center;
+     padding-right: 0px; 
 }
 }

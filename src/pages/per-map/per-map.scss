@@ -9,10 +9,10 @@ page-per-map {
     color: $color-orange;
 }
 .toolbar-background{
-    background-color: rgba(240, 248, 255, 0.85);
+    background-color: $color-background;
 }    
     .content{
-    background-color: rgba(240, 248, 255, 0.85);
+    background-color: $color-background;
 }
 .input{
     background-color: white;
