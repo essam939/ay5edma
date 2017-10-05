@@ -1,3 +1,5 @@
+import { PerItemdetailsPage } from './../per-itemdetails/per-itemdetails';
+import { PerSignupPage } from './../per-signup/per-signup';
 import { ServRequestsPage } from './../serv-requests/serv-requests';
 import { SettingsPage } from './../settings/settings';
 import { Component } from '@angular/core';
@@ -22,5 +24,17 @@ export class ProfilePage {
   }
   goinbox(){
     this.navCtrl.push(ServRequestsPage);
+  }
+  SignUP(){
+    this.navCtrl.push(PerSignupPage)
+  }
+  logout(){
+    console.log('exit');
+  }
+  notification(){
+    this.navCtrl.push(ServRequestsPage);
+  }
+  adds(){
+    this.navCtrl.push(PerItemdetailsPage);
   }
 }

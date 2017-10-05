@@ -4,13 +4,13 @@
 <ion-title >
 <ion-row >
 <ion-col col-2>
-  <ion-icon class="icon" name="mail"></ion-icon>
+  <ion-icon class="icon" name="mail" (click)="inbox()"></ion-icon>
 </ion-col>
 <ion-col col-2>
-  <ion-icon class="icon" name="ios-person-outline"></ion-icon>
+  <ion-icon class="icon" name="ios-person-outline" (click)="profile()"></ion-icon>
 </ion-col>
 <ion-col col-8 class="titlename">
-  Schedule
+  {{'Schedule'|translate}}
 </ion-col>
 </ion-row>     
 </ion-title>

@@ -1,3 +1,4 @@
+import { PerMapPage } from './../per-map/per-map';
 import { PerHoteldetailsPage } from './../per-hoteldetails/per-hoteldetails';
 import { Component } from '@angular/core';
 import {  NavController, NavParams } from 'ionic-angular';
@@ -24,5 +25,8 @@ export class PerHotelsPage {
   }
   gohotel(){
     this.navCtrl.push(PerHoteldetailsPage);
+  }
+  map(){
+    this.navCtrl.push(PerMapPage);
   }
 }

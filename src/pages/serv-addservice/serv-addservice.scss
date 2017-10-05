@@ -1,6 +1,6 @@
 page-serv-addservice {
 
-.content,.toolbar-background,.item{
+.content,.toolbar-background,{
     background-color: $color-background2; 
 }
 .toolbar-title{
@@ -8,6 +8,9 @@ color: rgba(66, 66, 66, 0.67);
 font-size: 1.7rem;
 text-align: center;
 padding-right: 60px;
+}
+.item{
+    background-color: rgb(244, 244, 244);
 }
 .select{
 font-size: 1.8rem;

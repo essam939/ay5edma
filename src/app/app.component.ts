@@ -22,8 +22,8 @@ export class MyApp {
       splashScreen.hide();
     });
 
-     platform.setDir('rtl', true);
-     this.translate.setDefaultLang('ar');
+     platform.setDir('ltr', true);
+     this.translate.setDefaultLang('en');
   }
 
 }

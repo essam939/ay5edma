@@ -84,7 +84,7 @@
   "Languages":"الغات",
   "Certificates":"الشهادات",
   "Skills":"المهارات",
-  "(Individual Technician)":"(فني قردي)",
+  "(Individual Technician)":"(فني فردي)",
   "Add Service":"اضافة خدمة",
   "Schedule":"جدول",
   "Assign Tasks":"تعيين المهام",
@@ -92,7 +92,13 @@
   "Profile Picture":"صورة الملف الشخصي",
   "Certificate":"شهادة",
   "Skill":"مهارة",
-  "Phone Numbers":"ارقام الهاتف"
+  "Phone Numbers":"ارقام الهاتف",
+  "Service Title:":"عنوان الخدمة",
+  "Description:":":الوصف",
+  "Techlocations":"الفنيين"
+
+  
+
   
   
 

@@ -117,4 +117,29 @@ $color-background2:rgba(241, 241, 241, 0.78);
     font-size: 1.5rem;
     font-weight: 600;
     }
-  
+    .flag{
+        height: 20px;
+        width: 30px;
+        position: absolute;
+        margin-left: -38px;
+        margin-top: -15px;
+    }
+    [dir ='rtl'] .flag {
+        height: 20px;
+        width: 30px;
+        position: absolute;
+        margin-right: -45px;
+        margin-top: -10px;
+    }
+   .alert-radio-icon {
+        border-color: #488aff;
+        padding: 5px;
+        margin: 20px;
+    }
+    .back-button.show-back-button{
+        display: inline-block;
+    }
+    [dir ='rtl'] .back-button.show-back-button {
+        display: inline-block;
+        transform: rotate(180deg);
+    }

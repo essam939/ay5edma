@@ -1,3 +1,5 @@
+import { ServRequestsPage } from './../serv-requests/serv-requests';
+import { ProfilePage } from './../profile/profile';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
@@ -20,6 +22,12 @@ export class IndivScedulePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad IndivScedulePage');
+  }
+  inbox(){
+    this.navCtrl.push(ServRequestsPage);
+  }
+  profile(){
+    this.navCtrl.push(ProfilePage);
   }
 
 }

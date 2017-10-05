@@ -1,3 +1,5 @@
+import { ProfilePage } from './../profile/profile';
+import { ServRequestsPage } from './../serv-requests/serv-requests';
 import { TermsPage } from './../terms/terms';
 import { AboutPage } from './../about/about';
 import { Component } from '@angular/core';
@@ -25,6 +27,12 @@ export class SettingsPage {
   }
   about(){
     this.navCtrl.push(AboutPage);
+  }
+  notification(){
+    this.navCtrl.push(ServRequestsPage);
+  }
+  profile(){
+    this.navCtrl.push(ProfilePage);
   }
   terms(){ this.navCtrl.push(TermsPage);}
   Change_Toggle(type) {
