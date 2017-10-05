@@ -36,8 +36,24 @@ page-serv-requests {
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 0 10px lightgrey;
-    margin-top: 10px;
+    margin-top: 15px;
 }
+.dicbutons{
+    width: 40%;
+    margin: auto;
+    display: block;
+    box-shadow: 0 0 5px #00dbff;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  
+    margin-bottom: 2px;
 
+}
+.cardicon{
+    color:$color-sky;
+}
 
 }
