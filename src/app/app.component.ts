@@ -1,3 +1,4 @@
+import { WelcomelanguagePage } from './../pages/welcomelanguage/welcomelanguage';
 import { WelcomePage } from './../pages/welcome/welcome';
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
@@ -12,7 +13,7 @@ import {TranslateService} from "@ngx-translate/core";
 })
 export class MyApp {
   public  MainService = MainService;
-  rootPage:any = WelcomePage;
+  rootPage:any = WelcomelanguagePage;
  
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen,public translate : TranslateService) {
     platform.ready().then(() => {

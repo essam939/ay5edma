@@ -1,3 +1,4 @@
+import { WelcomelanguagePage } from './../pages/welcomelanguage/welcomelanguage';
 import { ProfilePage } from './../pages/profile/profile';
 import { TermsPage } from './../pages/terms/terms';
 import { AboutPage } from './../pages/about/about';
@@ -104,7 +105,8 @@ export function createTranslateLoader(http: Http) {
     ProfilePage,
     SettingsPage,
     AboutPage,
-    TermsPage
+    TermsPage,
+    WelcomelanguagePage
  
   ],
   imports: [
@@ -163,7 +165,8 @@ export function createTranslateLoader(http: Http) {
     ProfilePage,
     SettingsPage,
     AboutPage,
-    TermsPage
+    TermsPage,
+    WelcomelanguagePage
  
    
 
