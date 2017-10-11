@@ -1,3 +1,4 @@
+import { MyaddsPage } from './../myadds/myadds';
 import { WelcomePage } from './../welcome/welcome';
 import { Component } from '@angular/core';
 import {  NavController, NavParams } from 'ionic-angular';
@@ -24,5 +25,8 @@ export class WelcomelanguagePage {
   }
   Arabic(){
     this.navCtrl.push(WelcomePage);
+  }
+  English(){
+    
   }
 }

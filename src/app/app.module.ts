@@ -1,3 +1,6 @@
+import { DeleteaddsPage } from './../pages/deleteadds/deleteadds';
+import { YouraddsPage } from './../pages/youradds/youradds';
+import { MyaddsPage } from './../pages/myadds/myadds';
 import { WelcomelanguagePage } from './../pages/welcomelanguage/welcomelanguage';
 import { ProfilePage } from './../pages/profile/profile';
 import { TermsPage } from './../pages/terms/terms';
@@ -106,7 +109,10 @@ export function createTranslateLoader(http: Http) {
     SettingsPage,
     AboutPage,
     TermsPage,
-    WelcomelanguagePage
+    WelcomelanguagePage,
+    MyaddsPage,
+    YouraddsPage,
+    DeleteaddsPage
  
   ],
   imports: [
@@ -166,7 +172,10 @@ export function createTranslateLoader(http: Http) {
     SettingsPage,
     AboutPage,
     TermsPage,
-    WelcomelanguagePage
+    WelcomelanguagePage,
+    MyaddsPage,
+    YouraddsPage,
+    DeleteaddsPage
  
    
 

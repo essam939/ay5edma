@@ -95,7 +95,16 @@
   "Phone Numbers":"ارقام الهاتف",
   "Service Title:":"عنوان الخدمة",
   "Description:":":الوصف",
-  "Techlocations":"الفنيين"
+  "Techlocations":"الفنيين",
+  "Delete":"حذف",
+  "Your Adds":"اعلاناتك",
+  "Deleting Adds":"حذف الاعلان",
+  "Reason For Deleting Adds":"سبب حذف الاعلان",
+  "You Are no longer Have The Item":"لم يعد لديك هذا الاعلان",
+  "Lack Of Buyers":"عدم وجود المشترين",
+  "The Item Got Corrupted":"تم تعطيل العنصر",
+  "I Am Going To Keep the Item":"انا ذاهب الى ابقاء هذا الاعلان",
+  "Other Reason":"سبب اخر"
 
   
 

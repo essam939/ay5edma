@@ -1,3 +1,4 @@
+import { MyaddsPage } from './../myadds/myadds';
 import { PerItemdetailsPage } from './../per-itemdetails/per-itemdetails';
 import { PerSignupPage } from './../per-signup/per-signup';
 import { ServRequestsPage } from './../serv-requests/serv-requests';
@@ -35,6 +36,6 @@ export class ProfilePage {
     this.navCtrl.push(ServRequestsPage);
   }
   adds(){
-    this.navCtrl.push(PerItemdetailsPage);
+    this.navCtrl.push(MyaddsPage);
   }
 }
