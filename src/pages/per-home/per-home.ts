@@ -1,3 +1,4 @@
+import { PerFirsthomePage } from './../per-firsthome/per-firsthome';
 import { ProfilePage } from './../profile/profile';
 import { ServRequestsPage } from './../serv-requests/serv-requests';
 import { SettingsPage } from './../settings/settings';
@@ -56,5 +57,8 @@ export class PerHomePage {
   }
   goinbox(){
     this.navCtrl.push(ServRequestsPage);
+  }
+  firstHome(){
+    this.navCtrl.push(PerFirsthomePage)
   }
 }

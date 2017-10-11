@@ -1,3 +1,4 @@
+import { PerFirsthomePage } from './../per-firsthome/per-firsthome';
 import { PerHomePage } from './../per-home/per-home';
 import { ForgetpasswordPage } from './../forgetpassword/forgetpassword';
 import { Component } from '@angular/core';
@@ -26,6 +27,6 @@ export class LoginPage {
     this.navCtrl.push(ForgetpasswordPage);
   }
   goperhome(){
-    this.navCtrl.push(PerHomePage);
+    this.navCtrl.push(PerFirsthomePage);
   }
 }

@@ -1,3 +1,4 @@
+import { PerFirsthomePage } from './../pages/per-firsthome/per-firsthome';
 import { DeleteaddsPage } from './../pages/deleteadds/deleteadds';
 import { YouraddsPage } from './../pages/youradds/youradds';
 import { MyaddsPage } from './../pages/myadds/myadds';
@@ -112,7 +113,8 @@ export function createTranslateLoader(http: Http) {
     WelcomelanguagePage,
     MyaddsPage,
     YouraddsPage,
-    DeleteaddsPage
+    DeleteaddsPage,
+    PerFirsthomePage
  
   ],
   imports: [
@@ -175,7 +177,8 @@ export function createTranslateLoader(http: Http) {
     WelcomelanguagePage,
     MyaddsPage,
     YouraddsPage,
-    DeleteaddsPage
+    DeleteaddsPage,
+    PerFirsthomePage
  
    
 

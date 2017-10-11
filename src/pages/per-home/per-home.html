@@ -10,11 +10,14 @@
         <ion-col col-1>
             <ion-icon class="icon" name="mail"(click)="goinbox()"></ion-icon>
         </ion-col>
-        <ion-col col-8 class="titlename">
-            {{'Home'|translate}}
-        </ion-col>
         <ion-col col-2 class="titlename">
             <ion-icon name="settings" (click)="settings()"></ion-icon>
+        </ion-col>
+        <ion-col col-5 class="titlename">
+            {{'Home'|translate}}
+        </ion-col>
+        <ion-col col-2 class="titlename" (click)="firstHome()">
+            {{'Adds'|translate}}
         </ion-col>
       </ion-row>     
     </ion-title>
@@ -23,7 +26,7 @@
 
 
 <ion-content padding>
-    <ion-input type="text" placeholder="Enter Location..." class="input"></ion-input>
+    <ion-input type="text" placeholder="{{'search'|translate}}" class="input"></ion-input>
     
 <ion-list>
 <ion-row class="rowitems">

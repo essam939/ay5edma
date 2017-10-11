@@ -9,7 +9,7 @@
   "Forget Password":"نسيت كلمة المرور",
   "Enter Your Email Address":"ادخل البريد الالكتروني",
   "Confirm":"تأكيد",
-  "Home":"الصفحة الرئيسية",
+  "Home":" الرئيسية",
   "Sell items":"بيع سلع",
   "Technicians":"الفنيين",
   "Real estate":"العقارات",
@@ -104,7 +104,10 @@
   "Lack Of Buyers":"عدم وجود المشترين",
   "The Item Got Corrupted":"تم تعطيل العنصر",
   "I Am Going To Keep the Item":"انا ذاهب الى ابقاء هذا الاعلان",
-  "Other Reason":"سبب اخر"
+  "Other Reason":"سبب اخر",
+  "Adds":"اعلانات",
+  "search":"بحث",
+  "Categories":"الفئات"
 
   
 
